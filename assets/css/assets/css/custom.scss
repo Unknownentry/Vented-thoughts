@@ -3,3 +3,11 @@
 
 @import "minima"; // Keep Minima’s base styling
 @import "style.css"; // Your custom CSS overrides
+
+
+
+---
+---
+
+@import "minima"; /* Minima’s default styling */
+@import "style"; /* Your overrides in style.css */
