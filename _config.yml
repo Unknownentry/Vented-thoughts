@@ -19,11 +19,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
-
-minima:
-  skin: custom
-
+      layout: "pages"
 
 
 header_pages:
