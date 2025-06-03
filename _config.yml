@@ -1,38 +1,15 @@
-theme: Jekyll-theme-minima
-# At the top of the file
+theme: minima
 title: Vented Thoughts
 description: My blog of unfiltered thoughts
-theme: minima
 
-# This line lets Jekyll know you’re overriding CSS
+minima:
+  skin: custom
+
 sass:
   style: compressed
-
-# Tells it to use your custom SCSS
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "pages"
-
 
 header_pages:
   - index.md
   - thoughts.md
   - opinions.md
   - rants.md
-
-
-
-  theme: minima
-title: Vented Thoughts
-description: My blog of unfiltered thoughts
-
-sass:
-  style: compressed
