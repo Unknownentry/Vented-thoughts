@@ -25,8 +25,8 @@ defaults:
 /* General page background and text color */
 body {
   background-color: #0b2e13; /* dark green background */
-  color: #d3d3d3; /* light grey text */
-  font-family: 'Arial', sans-serif;
+  color: #d3d3d3; /* white text */
+  font-family: 'Times New Roman', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
