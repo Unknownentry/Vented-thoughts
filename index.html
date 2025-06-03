@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vented Thoughts</title>
-  <link href="https://fonts.googleapis.com/css2?family=Meriwether:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts: Georgia isn't hosted, so we'll default to system Georgia -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    /* Base styles */
+    /* === Base Styles === */
     body {
-      background-color: #0b2e13; /* dark green background */
-      color: #d3d3d3; /* grey text */
-      font-family: 'Meriwheather', sans-serif;
+      background-color: #0b2e13; /* dark green */
+      color: #d3d3d3; /* light grey text */
+      font-family: 'Open Sans', sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
     }
 
-    /* Header styles */
+    /* === Header === */
     header {
-      background-color: #4b6f44; /* army green */
+      background-color: #4b6f44; /* army green header */
       color: #000; /* black text for contrast */
       padding: 1em;
       text-align: center;
       font-size: 1.8em;
       font-weight: 700;
+      font-family: Georgia, serif;
     }
 
-    /* Content container */
+    /* === Content Container === */
     .container {
       max-width: 800px;
       margin: 2em auto;
       padding: 0 1em;
     }
 
-    /* Links */
+    /* === Headings === */
+    h1, h2, h3 {
+      color: #4b6f44; /* army green */
+      font-family: Georgia, serif;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    /* === Paragraphs === */
+    p {
+      margin-bottom: 1em;
+    }
+
+    /* === Links === */
     a {
-      color: #4b6f44;
+      color: #4b6f44; /* army green */
       text-decoration: underline;
       transition: color 0.3s ease;
     }
@@ -45,16 +60,16 @@
       text-decoration: none;
     }
 
-    /* Blockquotes */
+    /* === Blockquotes === */
     blockquote {
-      border-left: 4px solid #000; /* black accent border */
+      border-left: 4px solid #000; /* black accent */
       padding-left: 1em;
       margin: 1em 0;
       color: #aaa;
       font-style: italic;
     }
 
-    /* Footer */
+    /* === Footer === */
     footer {
       background-color: #000;
       color: #d3d3d3;
@@ -62,11 +77,6 @@
       padding: 1em;
       margin-top: 2em;
       font-size: 0.9em;
-    }
-
-    /* Headings */
-    h1, h2, h3 {
-      color: #4b6f44; /* army green headings */
     }
   </style>
 </head>
