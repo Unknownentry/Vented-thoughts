@@ -72,3 +72,11 @@ code, pre {
 small {
   color: #888; /* muted grey for less important text */
 }
+
+
+
+.oranienbaum-regular {
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
