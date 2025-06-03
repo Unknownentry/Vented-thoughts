@@ -20,3 +20,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+
+minima:
+  skin: custom
