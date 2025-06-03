@@ -23,3 +23,11 @@ defaults:
 
 minima:
   skin: custom
+
+
+
+header_pages:
+  - index.md
+  - thoughts.md
+  - opinions.md
+  - rants.md
