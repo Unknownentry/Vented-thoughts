@@ -27,3 +27,12 @@ header_pages:
   - thoughts.md
   - opinions.md
   - rants.md
+
+
+
+  theme: minima
+title: Vented Thoughts
+description: My blog of unfiltered thoughts
+
+sass:
+  style: compressed
