@@ -1,8 +1,8 @@
-theme: minimal 
+theme: hacker
 title: Vented Thoughts
 description: My blog of unfiltered thoughts
 
-minimal:
+hacker:
   skin: custom
 
 sass:
