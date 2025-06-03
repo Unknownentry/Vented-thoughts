@@ -1,8 +1,8 @@
-theme: minima
+theme: minimal 
 title: Vented Thoughts
 description: My blog of unfiltered thoughts
 
-minima:
+minimal:
   skin: custom
 
 sass:
