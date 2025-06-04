@@ -1,0 +1,86 @@
+/* Basic reset and font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #013220; /* Dark green background */
+  color: #d3d3d3; /* Grey font color */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4b5320; /* Army green */
+  padding: 1rem;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5); /* Embossed look */
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #000; /* Black accent */
+  text-shadow: 1px 1px 2px #000; /* Embossed effect on title */
+}
+
+nav a {
+  color: #d3d3d3;
+  text-decoration: none;
+  margin: 0 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+main {
+  padding: 2rem;
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.1),
+              inset 0 -2px 4px rgba(0, 0, 0, 0.5); /* Embossed look */
+}
+
+article h2 {
+  margin-bottom: 0.5rem;
+  color: #000; /* Black accent for header */
+  text-shadow: 1px 1px 2px #000;
+}
+
+footer {
+  background-color: #4b5320;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  color: #d3d3d3;
+}
+
+/* Make it sleek and legible on mobile */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
